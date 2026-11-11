@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "sqlproj: Build DatabaseProjectcontrol",
+			"type": "process",
+			"command": "dotnet",
+			"args": [
+				"build",
+				"c:/Users/marib/OneDrive/Desktop/mongolongo/DatabaseProjectcontrol/DatabaseProjectcontrol.sqlproj"
+			],
+			"problemMatcher": "$sqlproj-problem-matcher",
+			"isBackground": true,
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "Builds the DatabaseProjectcontrol SQL project"
+		}
+	]
+}
